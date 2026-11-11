@@ -8,9 +8,6 @@ How to run
 
 ``` 
 $ cargo run -r [path to wordslist.txt]
-Use help for help
-Press ^C (CTRL + C) to exit
-(370106) >> 
 ```
 
 What is wordslist.txt?
