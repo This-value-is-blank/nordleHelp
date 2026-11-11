@@ -136,15 +136,8 @@ fn read_words<'a>(file_path: &String, file_buf: &'a mut String) -> Vec<&'a str> 
     
     *file_buf = file_buf.replace("\r", "");
     let output: Vec<&str> = file_buf 
-        // .replace("\r", "")
         .split("\n")
         .collect();
-    // // This is for windows (CRLF system)
-    // let mut output: Vec<&str> = file_buf.split("\r\n").collect();
-    // if output.len() == 1 {
-    //     // For unix like systems (LF)
-    //     output = file_buf.split("\n").collect();
-    // }
     return output;
 }
 
