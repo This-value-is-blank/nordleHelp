@@ -18,8 +18,6 @@ struct ReplArgs {
 
 #[derive(Debug, Subcommand)]
 pub enum ReplCommand {
-    /* /// Runs the ????
-    Run, */
     /// Restricts the length of the words list
     Length {
         /// Length of the words
