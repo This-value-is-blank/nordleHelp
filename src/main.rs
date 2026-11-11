@@ -30,7 +30,7 @@ pub enum ReplCommand {
         /// Out of asd, what is the Wordle encoding?
         info: String
     },
-    /// Add a letter
+    /// Add a Letter
     Al {
         /// What is the letter
         letter: String,
