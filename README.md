@@ -83,7 +83,21 @@ has "w" in the correct (first) spot, "e" correct but not in the fourth spot, and
 
 For adding words with duplicated letters (Eg Taste)  
 ``` aw tas_e sdddd ```  
-Replace the not interesting occurrence (In this case, the second one) with a character that dos'nt exist in the words list (eg _ ), and in the asd input, put that character ( _ ) in the duplicated letters place. 
+Replace the not interesting occurrence (In this case, the second one) with a character that dos'nt exist in the words list (eg _ ), and in the asd input, put d in the duplicated letters place.   
+This is only an issue (and therefore only necessary) when the duplicated letters asd different. 
+
+| Example | Use word | Use asd |
+|---------|-----|-----|
+| sxxdx | tas_e | sxxdx |
+| sxxsx | taste | sxxsx |
+| axxsx | taste | axxsx |
+| dxxax | _aste | dxxax |
+| dxxdx | taste | dxxdx |
+|       | tas_e | dxxdx |
+|       | _aste | dxxdx |
+
+(x in this table is a padding character)
+
 
 Run ``` list ``` when the number to the left of the prompt is small.
 
