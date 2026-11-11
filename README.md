@@ -7,7 +7,7 @@ How to run
 ----------
 
 ``` 
-$ cargo run [path to wordslist.txt]
+$ cargo run -r [path to wordslist.txt]
 Use help for help
 Press ^C (CTRL + C) to exit
 (370106) >> 
@@ -20,7 +20,7 @@ Its a list of "all" the words, separated by newlines (lf or crlf)
 
 I have put my words list in Documents/wordsList.txt, so I run  
 ```
-$ cargo run ~/Documents/wordsList.txt
+$ cargo run -r ~/Documents/wordsList.txt
 ```
 
 
