@@ -108,7 +108,7 @@ fn main() {
                 if letter.len() != info.len() {
                     println!("al requires the letter/s and the asd info to be the same length!");
                 } else {
-                    // We have just checked weather the letter String and hte info String are the same length
+                    // We have just checked whether the letter String and the info String are the same length
                     words = a_l(letter, info, words);
                 }
             }
